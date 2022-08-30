@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+@media all and (max-width: 1500px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+    .content {
+        margin: 1em auto;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .stat_heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-between;
+    }
+    .stat {
+        font-size: 15px;
+    }
+    .stat,
+    .spn {
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .spn {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    span.insights {
+        color: hsl(277, 64%, 61%);
+    }
+    p.heading {
+        color: aliceblue;
+        font-size: 1.5em;
+        margin: 5px 5px 20px 5px;
+    }
+    .about {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        margin: 25px 5px 60px 5px;
+    }
+    .description {
+        padding: 35px;
+    }
+    div .description,
+    div .image {
+        width: 50%;
+        height: auto;
+        background-color: hsl(244, 38%, 16%);
+    }
+}
+
+@media all and (max-width: 750px) {
+    .content {
+        margin: 3em auto;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat_heading {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .stat {
+        font-size: 15px;
+        display: block;
+        margin: 1em;
+    }
+    .stat,
+    .spn {
+        font-weight: bold;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    .spn {
+        font-size: 1.5em;
+    }
+    span.insights {
+        color: hsl(277, 64%, 61%);
+    }
+    p.heading {
+        color: aliceblue;
+        font-size: 1.5em;
+        margin: 5px 5px 20px 5px;
+        text-align: center
+    }
+    .about {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        text-align: center;
+        margin: 20px 10px 50px 10px;
+    }
+    .description {
+        padding: 35px;
+    }
+    div .description,
+    div .image {
+        width: 100%;
+        height: auto;
+        background-color: hsl(244, 38%, 16%);
+    }
+}
